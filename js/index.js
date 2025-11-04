@@ -183,8 +183,8 @@ function generateservers() {
                       .catch((err) => console.error("Failed to copy: ", err));
               });
 
-              const serveroptionimg = document.createElement("img");
-              serveroptionimg.src = server.icon; // use the icon from JSON
+              //const serveroptionimg = document.createElement("img");
+              //serveroptionimg.src = server.icon; // use the icon from JSON
 
               const serverdetails = document.createElement("div");
               serverdetails.className = "serverdetails";
