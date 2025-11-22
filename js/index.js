@@ -522,7 +522,7 @@ function moddededition(){
 }
 
 function serverTab(){
-  launcher = "https://21cookej.github.io/Launcher/assets/json/server.json";
+  launcher = "https://21cookej.github.io/Launcher/assets/json/servers.json";
   resetTabSelected();
   generateprofile(2);
   generateservers();
