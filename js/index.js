@@ -526,8 +526,8 @@ function serverTab(){
   resetTabSelected();
   generateprofile(2);
   generateservers();
-  document.getElementById('game-bg').style.backgroundImage = 'url(https://21cookej.github.io/Launcher/assets/images/server.jpg)';
-  document.getElementById('game-title').src = 'https://21cookej.github.io/Launcher/assets/images/server-title.png';
+  document.getElementById('game-bg').style.display = 'none';
+  document.getElementById('game-title').src = 'https://21cookej.github.io/Launcher/assets/images/serverketplace-title.png';
   document.getElementById('gameedition').innerHTML = 'EAGLERCRAFT SERVERS';
   document.getElementById('header1').style.display = 'none';
   document.getElementById('game-title').style.display = 'none';
